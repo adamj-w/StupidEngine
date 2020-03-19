@@ -1,0 +1,15 @@
+.vs/
+
+*.o
+*.obj
+
+*.pch
+
+*.so 
+*.dll
+
+*.out
+*.exe
+
+*.a
+*.lib
