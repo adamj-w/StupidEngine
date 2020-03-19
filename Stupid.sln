@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stoopid", "Stoopid\Stoopid.vcxproj", "{BDC8AE8F-2807-4E57-97C2-663793F5F263}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "Demo\Demo.vcxproj", "{FCAB86E9-6DDC-4429-A720-64A92A90A064}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BDC8AE8F-2807-4E57-97C2-663793F5F263} = {BDC8AE8F-2807-4E57-97C2-663793F5F263}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +26,14 @@ Global
 		{BDC8AE8F-2807-4E57-97C2-663793F5F263}.Release|x64.Build.0 = Release|x64
 		{BDC8AE8F-2807-4E57-97C2-663793F5F263}.Release|x86.ActiveCfg = Release|Win32
 		{BDC8AE8F-2807-4E57-97C2-663793F5F263}.Release|x86.Build.0 = Release|Win32
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Debug|x64.ActiveCfg = Debug|x64
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Debug|x64.Build.0 = Debug|x64
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Debug|x86.Build.0 = Debug|Win32
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Release|x64.ActiveCfg = Release|x64
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Release|x64.Build.0 = Release|x64
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Release|x86.ActiveCfg = Release|Win32
+		{FCAB86E9-6DDC-4429-A720-64A92A90A064}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
